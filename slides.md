@@ -1,7 +1,7 @@
 ---
 title: Dr. Evil!
 revealOptions:
-  transition: slide
+  transition: zoom
 ---
 
 # Retrospectives
