@@ -1,0 +1,39 @@
+/**
+ * Open Innovation Labs theme for reveal.js.
+ *
+ * 
+ */
+@import url(http://overpass-30e2.kxcdn.com/overpass.css);
+@import url(http://overpass-30e2.kxcdn.com/overpass-mono.css);
+
+body {
+  background-color: #000;
+  font-family: "Overpass", sans-serif;
+  font-size: 38px;
+}
+
+#header {
+  margin-left: 5%;
+  width: 90%;
+  color: #c00;
+  font-weight: 900;
+  font-size: .7em;
+  list-style: none;
+}
+
+#header li {
+  display: inline-block;
+}
+
+#header li:last-child {
+  float: right; 
+}
+
+.reveal {
+  background-image: url("images/logos/oil-protobadge.png"), url("images/logos/redhat-logo.png");
+  background-size: 140px, 110px;
+  background-position: 7% 98%, 93% 98%; /*Positioning*/
+  background-repeat: no-repeat; /*Prevent showing multiple background images*/
+  font-size: .9em;
+}
+
