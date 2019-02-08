@@ -7,7 +7,7 @@
     "static": "reveal-md slides.md --css style.css --template src/reveal.html --static",
     "print": "decktape reveal http://localhost:1948/slides.md slides.pdf"
   },
-  "author": "Dmytri Keiner <dk@redhat.com>",
+  "author": "Dmytri Kleiner <dk@redhat.com>",
   "dependencies": {
     "decktape": "^2.9.1",
     "reveal-md": "^2.4.1"
