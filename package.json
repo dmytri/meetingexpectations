@@ -4,12 +4,18 @@
   "description": "Red Hat Open Innovational Labs Slides",
   "scripts": {
     "start": "reveal-md slides.md --watch --css src/style.css --template src/reveal.html",
-    "static": "reveal-md slides.md --css style.css --template src/reveal.html --static",
-    "print": "decktape reveal http://localhost:1948/slides.md slides.pdf"
+    "static": "reveal-md slides.md --css src/style.css --assets-dir '' --static-dirs src --template src/reveal.html --static",
+    "publish": "npm run static && npm run cname && cd _static && surge",
+    "print": "decktape reveal http://localhost:1948/slides.md slides.pdf",
+    "cname": "[ -d _static ] || mkdir _static; [ -f _static/CNAME ] || echo $(xkcdpass).surge.sh > _static/CNAME"
   },
   "author": "Dmytri Kleiner <dk@redhat.com>",
   "dependencies": {
     "decktape": "^2.9.1",
     "reveal-md": "^2.4.1"
+  },
+  "optionalDependencies": {
+    "surge": "^0.20.1",
+    "xkcdpass": "^0.1.1"
   }
 }
