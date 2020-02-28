@@ -1,4 +1,4 @@
-# Labs Slides Tool Kit
+# Slides Tool Kit
 
 ## install
 
@@ -37,4 +37,3 @@ cd src
 Files be here
 
 > see scripts in package.json for more deets
-# meetingexpectations
