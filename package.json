@@ -11,8 +11,7 @@
   },
   "author": "Dmytri Kleiner <dk@redhat.com>",
   "dependencies": {
-    "decktape": "^2.9.1",
-    "reveal-md": "^2.4.1"
+    "reveal-md": "^3.3.0"
   },
   "optionalDependencies": {
     "surge": "^0.20.1",
